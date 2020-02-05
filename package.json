@@ -1,0 +1,39 @@
+{
+  "name": "blogdash",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Contrat.ma content api",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.0-beta.18.7",
+    "strapi-admin": "3.0.0-beta.18.7",
+    "strapi-utils": "3.0.0-beta.18.7",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.18.7",
+    "strapi-plugin-content-manager": "3.0.0-beta.18.7",
+    "strapi-plugin-users-permissions": "3.0.0-beta.18.7",
+    "strapi-plugin-email": "3.0.0-beta.18.7",
+    "strapi-plugin-upload": "3.0.0-beta.18.7",
+    "strapi-connector-bookshelf": "3.0.0-beta.18.7",
+    "knex": "<0.20.0",
+    "pg": "latest"
+  },
+  "author": {
+    "name": "Mohamed Moughamir",
+    "email": "moughamir@gmail.com",
+    "url": "https://omnizya.com"
+  },
+  "strapi": {
+    "uuid": "f8abfe40-9775-445e-838d-41d5eebff3f3"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
