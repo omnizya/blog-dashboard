@@ -1244,6 +1244,9 @@
                 }
               }
             }
+          },
+          "FullName": {
+            "type": "string"
           }
         }
       },
@@ -1280,6 +1283,9 @@
             "default": false
           },
           "role": {
+            "type": "string"
+          },
+          "FullName": {
             "type": "string"
           }
         }
